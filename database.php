@@ -1,8 +1,9 @@
 <?php
-$host = "localhost";
+$host = "mainline.proxy.rlwy.net";
 $user = "root";
-$pass = "";
-$db   = "db_ecommerce";
+$pass = "BNWNmKoNCrGGmWbucAXQZKuRVeWjWkIm";
+$db   = "railway";
+$port = "18268";
 
 $conn = mysqli_connect($host, $user, $pass, $db);
 
